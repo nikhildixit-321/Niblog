@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!-- header -->
+ <header>
+    <!-- nav -->
+     <div class="nav container">
+    <!-- logo -->
+     <a href="#" class="logo">
+        Ni<span>blog</span>
+     </a>
+     <ul>
+        <li><a href="#">HOME</a> </li>
+        <li>
+             <a href="#addblog">ADD</a>
+        </li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+     </ul>
+     <!-- login btn -->
+      <a href="#" class="login">login</a>
+    </div>
+ </header>
+ <!-- home -->
+  <section class="home" id="home">
+    <div class="home-text container">
+        <h2 class="home-title">The Niblog Blog</h2>
+        <span class="home-subtitle">your source of great content </span>
+    </div>
+  </section>
+  <!-- post filter -->
+  <div class="post-filter container">
+    <span class="filter-item active-filter" data-filter="all">ALL</span>
+    <span class="filter-item " data-filter="design">Design</span>
+    <span class="filter-item " data-filter="tech">Tech</span>
+    <span class="filter-item " data-filter="mobile">Mobile</span>
+
+
+  </div>
+  <!-- posst -->
+   <section class="post-container">
+    <div class="post-box"></div>
+
+
+   </section>
+    <!-- post box1 -->
+      <!-- <div class="post-box ">
+        <img src="./image/boesijana-Cpy32KCZ6GU-unsplash.jpg" alt="">
+        <h2 class="catagory">Design</h2>
+        <a href="post-page.html" class="post-title">
+        How to create best ux design with adobe XDA</a>
+        <spna class="post-date">20 oct 2024</spna>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum ab consequuntur vitae assumenda ipsa? Alias voluptates nam debitis consequatur cum tenetur obcaecati error accusamus dicta. Dignissimos illum deleniti libero quos?</p>
+        <div class="profile">
+            <img src="./image/sneha dixit.jpg" alt="" class="profile-img">
+    
+            <span class="profile-name">sneha dixit</span>
+            </div> 
+     </div> 
+    
+    -->
+       
+       
+       <form class="form" id="addblog">
+          <h1>ADD NEW BLOG</h1>
+        TITLE:<input type="text" class="title" placeholder="Title"><br>
+       SUBTITLE:<input type="text" class="subtitle"  placeholder="Subtitle"><br>
+       DESCRIPTION: <br><textarea class="discription" placeholder="Description" cols="30" rows="10"></textarea><br>
+        DATA:<input type="date" class="data" placeholder="Data">
+        <button class="btn">Submit</button>
+      </form>
+      
+
+
+    
+  
+
+
+ <!-- foooter -->
+ <div class="footer-container">
+    <p > &#169; Carpoolniblog all Right Reserved</p>
+    <div class="social">
+        <a href="#"><i class='bx bx1-facebook'></i></a>
+        <a href="#"><i class='bx bx1-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+    </div>
+  </div>
+
+   </section>
+   <!-- jquery link -->
+   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+   <script
+   src="https://code.jquery.com/jquery-3.7.1.js"
+   integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+   crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
